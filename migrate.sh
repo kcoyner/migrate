@@ -21,6 +21,9 @@ if [[ $1 == "-h" ]] || [[ $1 == "--help" ]]; then
   already be specified in your global .gitconfig
   file in your home directory.
 
+  You will be prompted for your github password during
+  the execution of the script.
+
   Make sure this script is executable by running
 
     chmod +x ./migrate.sh

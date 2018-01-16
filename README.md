@@ -12,7 +12,8 @@ with history, without damaging the original repo.
 The old repo name must end with the file type .git.
 The new repo name does not need .git.
 
-  	Example: $ ./migrate.sh  rpt01-n-queens.git  2017-06-n-queens
+  	Example:
+          $ ./migrate.sh  rpt01-n-queens.git  2017-06-n-queens
 
 To use this program, your github username must
 already be specified in your global ```.gitconfig```
