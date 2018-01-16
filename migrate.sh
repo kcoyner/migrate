@@ -9,7 +9,7 @@ set -e
 if [[ $1 == "-h" ]] || [[ $1 == "--help" ]]; then
   cat << EOM
 
-  Usage:   $0  old_repo_name  new_repo_name
+  Usage:   $0  old_repo_name.git  new_repo_name
 
   Important:
    The old repo name must end with the file type .git.

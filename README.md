@@ -3,7 +3,7 @@
 A bash script to migrate an existing github repo to a new github repo, complete
 with history, without damaging the original repo.
 
-  	Usage:   $ ./migrate.sh  old_repo_name  new_repo_name
+  	Usage:   $ ./migrate.sh  old_repo_name.git  new_repo_name
 
 **Important:**
 The old repo name must end with the file type .git.
